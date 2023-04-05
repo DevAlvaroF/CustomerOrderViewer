@@ -88,17 +88,17 @@ namespace CustomerOrderViewer
             Console.WriteLine("----> NOTE: For updating type existing CustomerOrderID, for new entries enter -1");
 
             // Read Order ID
-            Console.WriteLine("Enter Customer Order ID");
+            Console.WriteLine("Enter Customer Order ID to Change");
             int customerOrderID;
             Int32.TryParse(Console.ReadLine(), out customerOrderID);
 
             // Read Customer ID
-            Console.WriteLine("Enter Customer ID");
+            Console.WriteLine("Enter new Customer ID");
             int customerID;
             Int32.TryParse(Console.ReadLine(), out customerID);
 
             // Read Customer ID
-            Console.WriteLine("Enter Item ID");
+            Console.WriteLine("Enter new Item ID");
             int itemID;
             Int32.TryParse(Console.ReadLine(), out itemID);
 
